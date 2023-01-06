@@ -21,11 +21,11 @@
     margin-top: 100px;
 }
 
- .head h1{
+.head h1{
     text-align: center;
     margin: 20px;
 }
-h5{
+.head h5{
     text-align: center;
     margin: 15px;
 }
@@ -37,4 +37,36 @@ h5{
     padding: 5px;
     border-radius: 15%;
     font-style: bold;
+}
+.section-1{
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+}
+.section-1 h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.section-1 h5{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.section-1 ul{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 30px;
+    border-width: 15px;
+}
+.section-1 ul li{
+    list-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: aqua;
 }
