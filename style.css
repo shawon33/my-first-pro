@@ -3,3 +3,38 @@
     padding:0 ;
     font-family: sans-serif;
 }
+.header{
+    background-image: url(images/donation1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1400px;
+    height: 100vh;
+    margin: 0 50px;
+    position: relative;
+}
+.head{
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+ .head h1{
+    text-align: center;
+    margin: 20px;
+}
+h5{
+    text-align: center;
+    margin: 15px;
+}
+.head button{
+    color: rgb(231, 14, 14);
+    background-color:rgb(55, 226, 55);
+    border: rgb(5, 87, 11) 2px solid;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15%;
+    font-style: bold;
+}
