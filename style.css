@@ -57,7 +57,6 @@
     font-size: 20px;
 }
 .section-1 ul{
-    background-color: bisque;
     display: flex;
     justify-content: space-around;
     margin: 10px;
@@ -65,8 +64,10 @@
     border-width: 15px;
 }
 .section-1 ul li{
+    justify-content: center;
     list-style: none;
     padding: 5px;
     border-radius: 5px;
     border-color: aqua;
+    border-width:  20px;
 }
