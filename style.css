@@ -56,18 +56,15 @@
     text-align: center;
     font-size: 20px;
 }
-.section-1 ul{
+.section-1 .section{
     display: flex;
-    justify-content: space-around;
-    margin: 10px;
-    padding: 30px;
-    border-width: 15px;
-}
-.section-1 ul li{
     justify-content: center;
-    list-style: none;
-    padding: 5px;
-    border-radius: 5px;
-    border-color: aqua;
-    border-width:  20px;
+}
+.section .item{ 
+    color: rgb(48, 49, 49);
+    margin: 5px;
+    padding: 35px;
+    font-size: 26px;
+    border: 2px solid  rgb(47, 55, 55);
+    background-color: antiquewhite;
 }
